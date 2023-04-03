@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+php {
+  scroll-behavior: smooth;
+}
+
+
+
+
+/*    HOME    */
+#nen {
+    height: 100vh;
+    width: 100%;
+    background-image: url('kendall1.jpg');
+    background-size: cover;
+    
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    height: 40px;
+    width: 100%;
+    background-color: #fff; 
+    opacity: 0.7;
+    box-shadow: 3px 3px 30px black;
+/*    position: sticky;*/
+    top:0;
+    left:0;
+}
+
+#header a i{
+    color: black
+}
+#header a i:hover,
+#header a i.active{
+    color: red;
+}
+
+#daumenu{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+#daumenu li {
+    list-style: none; 
+    padding: 0 10px;
+/*    position: relative;*/
+}
+#daumenu li a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    
+    letter-spacing: 3px;
+    text-transform: capitalize;   
+    transition: 0.3s;
+
+}
+#daumenu li a:hover,
+#daumenu li a.active{
+    color: red;
+}
+
+#daumenu li i cart {
+    margin-left: 90px;  
+}
+
+#nen .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px;
+}
+#nen .intro p{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-family: fantasy;
+    text-shadow: -3px 3px 5px black, -2px 3px 1px black;
+}
+
+#nen .intro p{
+    color: red;
+    font-size: 35px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+    font-family: fantasy;
+    text-shadow: -3px 3px 5px pink;
+}
+#nen .intro h3 i{
+    border: 8px solid cyan;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 50px;
+    color: black;
+/*    text-decoration: line-through;*/
+    text-shadow: -5px 7px 30px white,-3px 5px 1px cyan;
+}
+#nen .intro  button{
+
+    margin-top: 40px;
+/*    padding: 10px 30px;
+    border: 2px solid pink;
+*/    color: cyan;/*
+*/    background-color: black;/*
+    border-radius: 30px;*/
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+/*  letter-spacing: 2px;*/
+/*  text-decoration: none;*/
+/*  text-transform: uppercase;*/
+/*  color: #000;*/
+  cursor: pointer;
+  border: 3px solid;
+  
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+/*  user-select: none;
+  -webkit-user-select: none;*/
+/*  touch-action: manipulation;*/
+}
+
+#nen .intro button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+#than {
+    background-image: url('img/nen.jpg');
+    background-size: cover;
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    margin-top: 30px;
+}
+
+
+.gioithieu{
+    display: block;
+}
+.brand{
+    box-sizing: border-box;
+    width: 60%;
+    float: left;
+    height: 720px;
+/*    border: 3px solid black;*/
+}
+.bran-2{
+    margin-top: 30px;
+    padding-top: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 40%;
+    float: right;
+    height: 720px;
+/*    border: 3px solid black;*/
+}
+
+#than h1{
+    color: red;
+    text-shadow: -6 -4 3 yellow ,-3 -2 1 orange ;
+    font-size: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+#than h2{
+    color: red;
+    text-shadow: -6 -4 3 yellow ,-3 -2 1 orange ;
+    font-size: 20px;
+    text-align: center;
+}
+
+#than .brand{
+    margin-top: 30px;
+    padding-top: 100px;
+    text-align: center;
+    padding-left: 80px;
+
+}
+#than .brand h2 i{
+    color: white;
+    font-size: 40px;
+    text-shadow: -3px 3px 5px pink ; 
+}
+#than .brand p{
+    
+    padding-top: 40px;
+    color: black;
+    font-size: 27px;
+    font-weight: 600;
+    text-shadow: -3px 3px 1px pink ;
+}
+#than .brand p i{
+
+    color: pink;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: -3px 2px 5px cyan ,3px 3px 1px black;
+}
+#than .brand h4{
+    
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: -3px 2px 5px pink ;
+}
+#than .brand h1{
+    padding-top: 40px;
+    color: pink;
+    text-shadow: -3px 3px 10px pink,-3px 2px 6px red,-3px 1px 3px black;
+}
+
+.gioithieu{
+    display: block;
+}
+.brand{
+    box-sizing: border-box;
+    width: 60%;
+    float: left;
+    height: 720px;
+/*    border: 3px solid black;*/
+}
+.bran-2{
+    margin-top: 30px;
+    padding-top: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 40%;
+    float: right;
+    height: 720px;
+/*    border: 3px solid black;*/
+}
+
+
+
+
+
+
+
+/*PHAN DUOI TRANG*/
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 150px 60px 150px;
+    color:black;
+    background-color: pink;
+}
+#footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+#footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;  
+}
+#footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0; 
+}
+#footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+#footer .follow{
+    margin-top: 20px;
+}
+#footer .follow i{
+    color: gray;
+    padding-right: 4px;
+    cursor: pointer;   
+}
+
+
+
+
+
+
+
+
+
+                /*     SHOP     */
+
+#page-header{
+    display: flex;
+    background-color:  pink;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    color: black;
+    text-shadow: -3px 3px 10px pink,-3px 2px 6px pink,-3px 1px 3px black;
+}
+
+
+
+
+
+/*SAN PHAM*/
+
+#nenxanh1{
+     background-image: url('img/nen2.jpg');
+    background-size: cover;
+    background-color: whitesmoke;
+    background-attachment: fixed;
+/*    margin-top: 30px;*/
+}
+#spham{
+   text-align: center;
+   
+    
+}
+#spham .pro-container {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+    
+#spham .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #ccccff;
+/*    border-radius: 25px;*/
+    cursor: pointer;
+    box-shadow: 5px 5px 20px gray;
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative
+    
+}
+#spham .pro:hover{
+    box-shadow: 3px 3px 30px black;
+}
+#spham .pro img{
+    width: 100%;
+/*    border-radius:20px;*/
+}
+#spham .pro .des{
+    text-align: start;
+    padding: 10px 0;
+    
+} 
+/*#product1 .pro .des span{
+    color: red;
+    font-size: 12px;
+}*/
+#spham .pro .des h5{
+    padding-top: 7px;
+    color: black;
+    font-size: 14px;
+}
+#spham .pro .des i{
+    font-size: 12px;
+    color: yellow;
+}
+#spham .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #6600ff
+}
+#spham .pro .cart{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+/*    border-radius: 50px;*/
+    background-color: #ffcccc;
+/*    font-weight: 600;*/
+    color:#ff0066;
+    border: 1px solid #ff0066;
+    position: absolute;
+    
+    bottom: 20px;
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*CHI TIET SAN PHAM*/
+
+
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px; 
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px
+}
+
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus{
+    outline: none;
+    
+}
+
+#prodetails .single-pro-details button{
+    background-color: #088178;
+    color: #fff;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+
+
+/*BLOG*/
+/*
+
+*/#blog{
+    padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+#blog .blog-img{
+    width: 50%;
+    margin-right: 40px;
+}
+
+#blog img{
+    width: 100%;
+    height: 300px;
+    object-fit:cover ;
+}
+
+#blog .blog-details{
+    width: 50%;
+}
+
+#blog .blog-details a {
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+}
+
+#blog .blog-details a::after{
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+}
+
+#blog .blog-details a:hover{
+    color: green;
+}
+
+#blog .blog-details a:hover::after{
+    background-color: green;
+}
+
+#blog .blog-box h1{
+    position: absolute;
+    top: -70px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9c9c9;
+    z-index: -9;
+}
